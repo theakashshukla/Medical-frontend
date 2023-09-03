@@ -1,11 +1,11 @@
 import "./App.css";
-import Partner from "./component/Partner.jsx";
+
+import Home from "./pages/Home.jsx";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <Partner />
+      <Home />
     </div>
   );
 }
